@@ -12,10 +12,6 @@ class BlogScraper
         @ignblog = @nokogiri.css('.listElmnt-thumb').to_a
     end
 
-    def ignblinks
-        @ignlinks = @nokogiri.css('.listElmnt-storyHeadline thumb').to_a
-    end
-
     def stories
         @nokogiri.css('.listElmnt')
     end
