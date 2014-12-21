@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+        <link rel="stylesheet" text="text/css" href="css/style.css">
+
+        <title>Home</title>
+    </head>
+
+    <body>
+
+    <div class="container">
+
+        <div class="row">
+                <div class="col-md-12 text-center"><img src= "http://fc01.deviantart.net/fs71/i/2011/008/4/a/b_flat_by_zennore-d36p19t.jpg" class="person"></div>
+        </div>
+
+        <div class="row">
+             <div class="col-md-6" id="ign"> <h1>IGN Blog</h1>
+                    <h3>This is the blog to a website that will give the most uptodate information about new games and certain thing the community has done.</h3>
+
+                <% @ignblog.each do |story| %>
+                    <p><%=story.text%></p>
+
+
+                   
+                <%end%>
+            </div>
+          <div class="col-md-6" id="matthewtweets">
+            <h1>Matthew Mitosis' Tweets</h1>
+                    <h3>Matthew Mitosis is a critical video game reviewer whos opinion I trust a lot. Here is all he is up to; his videos and first impressions of previews or press confrences.</h3>
+
+                <p><%= @matthewmatosis_tweets %></p></div>
+<br>
+<h3><a href="/about">About the Page</a></h3>
+            </div>
+    </div>
+
+    </body>
+<html>

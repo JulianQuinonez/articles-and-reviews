@@ -1,0 +1,25 @@
+body {padding-top: 70px;
+  background: url(http://www.4colorrebellion.com/wp-content/gallery/its-the-journey/journey4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;}
+
+h4 {
+    color: rgb;text-shadow: 2px 2px rgb(0,0,0);
+}
+
+.person {
+    width: 25%;
+}
+
+#personal {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+#description {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+}

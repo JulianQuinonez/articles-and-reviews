@@ -1,0 +1,31 @@
+/*body {background-image: url("http://www.myfreetextures.com/wp-content/uploads/2011/06/an-old-and-worn-parchment-paper.jpg");}*/
+
+body {padding-top: 70px;
+  background: url(http://media.officialplaystationmagazine.co.uk/files/2012/09/journey-insane-beauty.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;}
+
+h1 {
+    color: rgb(55,50,150);text-shadow: 2px 2px #C0C0C0;
+}
+
+h3 {
+    color: rgb(75,105,75);
+}
+
+.person {
+    width: 25%;
+}
+
+#ign {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+#matthewtweets {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
